@@ -28,8 +28,5 @@ module.exports = {
     });
   },
 
-  down: async (queryInterface) => {
-    // Drop the 'books' table
-    await queryInterface.dropTable('books');
-  },
+  
 };
